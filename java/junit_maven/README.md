@@ -4,12 +4,6 @@ Maven example
 http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
 
-Init
-----
-
-All you need is the pom.xml !
-
-
 Create the project
 ------------------
 
@@ -22,9 +16,10 @@ http://maven.apache.org/guides/getting-started/index.html
 
 This will:
 
+- make the app directory "my-app"
 - generate the pom.xml
 - make the App.java file
-- make the first test file
+- make the first test file AppTest.java
 
 
 Compile!
