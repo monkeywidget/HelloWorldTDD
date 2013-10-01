@@ -1,3 +1,8 @@
+Maven example
+=============
+
+http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+
 
 Init
 ----
@@ -8,17 +13,33 @@ All you need is the pom.xml !
 Create the project
 ------------------
 
-    mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+http://maven.apache.org/guides/getting-started/index.html
+
+    mvn archetype:generate \
+      -DarchetypeGroupId=org.apache.maven.archetypes \
+      -DgroupId=com.mycompany.app \
+      -DartifactId=my-app
+
+This will:
+
+- generate the pom.xml
+- make the App.java file
+- make the first test file
 
 
-Install all the stuff with maven
---------------------------------
+Compile!
 
-    mvn package
-
+    mvn compile
 
 
 Run the tests
 =============
 
-    java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name]
+Compile the code
+
+    mvn clean; mvn compile
+
+Run the tests:
+
+    mvn test
+
