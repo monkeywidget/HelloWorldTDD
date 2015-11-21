@@ -1,8 +1,16 @@
 Ruby without Rails
 ============
 
+Rubocop
+=======
+
+Run
+---
+
+    $ bundle exec rubocop
+
 Spec
-===
+====
 
 Run the Tests
 -----------
